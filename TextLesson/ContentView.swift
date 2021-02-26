@@ -14,8 +14,9 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.thin)
                 .padding()
-            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+            Text("あいうえお、かきくけこ、さしすせそ、たちつてと、なにぬねの、はひふへほ。")
                 .foregroundColor(Color.red)
+                .frame(width: 200.0)
         }
     }
 }
