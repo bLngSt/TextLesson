@@ -15,6 +15,7 @@ struct ContentView: View {
                 .fontWeight(.thin)
                 .padding()
             Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color.red)
         }
     }
 }
