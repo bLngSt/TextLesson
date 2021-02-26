@@ -16,6 +16,7 @@ struct ContentView: View {
                 .padding()
             Text("あいうえお、かきくけこ、さしすせそ、たちつてと、なにぬねの、はひふへほ。")
                 .foregroundColor(Color.red)
+                .lineLimit(2)
                 .frame(width: 200.0)
         }
     }
