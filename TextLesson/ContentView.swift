@@ -10,7 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("TEXT").font(.title).padding()
+            Text("TEXT")
+                .font(.title)
+                .fontWeight(.thin)
+                .padding()
             Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
         }
     }
