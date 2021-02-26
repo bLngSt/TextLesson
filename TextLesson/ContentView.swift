@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("TEXT")
                 .font(.title)
                 .fontWeight(.thin)
+                .border(Color.black, width: 1)
                 .padding()
             Text("あいうえお、かきくけこ、さしすせそ、たちつてと、なにぬねの、はひふへほ。")
                 .foregroundColor(Color.red)
